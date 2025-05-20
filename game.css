@@ -64,20 +64,32 @@ body {
   background-color: #ffaa00;
 }
 
-
 @media (max-width: 480px) {
   #question {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 
   #options button {
-    font-size: 1rem;
-    padding: 10px 16px;
+    font-size: 1.2rem;
+    padding: 14px 20px;
   }
 
   #timer,
   #score,
   #high-score {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+  }
+
+  #message {
+    font-size: 1.3rem;
+  }
+
+  #restart-btn {
+    font-size: 1.2rem;
+    padding: 12px 20px;
+  }
+
+  .game-container {
+    padding: 20px;
   }
 }
